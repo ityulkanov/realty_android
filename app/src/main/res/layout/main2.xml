@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:elevation="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.03"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.03">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/phone"
+                android:textSize="21sp"
+                android:background="@drawable/edittextstyle"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendButton"
+                style="?attr/buttonStyle"
+                android:textColor="@android:color/background_light"
+                android:background="@android:drawable/ic_menu_search"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.03"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Добавить номер"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addButton"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleInset" />
+
+        <Button
+            android:text="Новая заявка"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addBidButton"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleInset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Настройки"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/settingsButton"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleInset" />
+
+        <Button
+            android:text="Просмотр заявок"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/getAllBids"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleInset" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/callreceiverstyle"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:text="Получение данных..."
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumber"
+        android:textSize="14sp"
+        android:textColor="@android:color/background_dark"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt" />
+
+    <Button
+        android:layout_height="40sp"
+        android:id="@+id/buttonClose"
+        android:elevation="0dp"
+        android:foreground="@android:drawable/ic_delete"
+        android:layout_width="40dp"
+        style="?attr/buttonStyle"
+        android:background="@android:drawable/btn_dialog" />
+
+</LinearLayout>

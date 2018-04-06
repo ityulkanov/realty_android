@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "818263514682",
+    "project_id": "blacklist-7284e"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818263514682:android:69dc6e1011f6d2f0",
+        "android_client_info": {
+          "package_name": "ru.dom_v.BlackList"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818263514682-e752e8cvt2i0tnqsf0cbegcm9b6ctpgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApuEW63T66rJAOrxZq-6gY1rm3F70eKyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

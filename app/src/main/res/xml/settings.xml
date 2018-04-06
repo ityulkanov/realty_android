@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:title="Основные">
+        <CheckBoxPreference
+            android:title="Уведомление во время звонка"
+            android:defaultValue="false"
+            android:summary="Отображать уведомление о входящем номере"
+            android:key="enableInfoTag" />
+        <CheckBoxPreference
+            android:title="Уведомление во время поиска"
+            android:defaultValue="true"
+            android:summary="Отображать уведомление о совершенном поиске"
+            android:key="enablePushMessage" />
+        <EditTextPreference
+            android:defaultValue="192.168.1.200:8090/realty/"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Адрес сервера "
+            android:key="serverAddress"
+            android:summary="Лучше не менять самому" />
+        <Preference
+            android:key="mainSettings" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
